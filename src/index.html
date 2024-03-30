@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <meta charset="utf=8" />
+    <title>Go/HTMX Demo with Styling</title>
+    <link rel="stylesheet" href="/src/index.css" />
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+  </head>
+
+  <main>
+    <body>
+      <h1>It's time to go.</h1>
+      <!-- have a button POST a click via AJAX -->
+      <button hx-post="/clicked" hx-swap="outerHTML scroll:bottom">
+        Click Me
+      </button>
+    </body>
+  </main>
+</html>

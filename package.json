@@ -1,0 +1,13 @@
+{
+  "name": "nebulith",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "run dev",
+    "test2": "go main"
+  },
+  "author": "Dom",
+  "license": "ISC",
+  "devDependencies": {}
+}
